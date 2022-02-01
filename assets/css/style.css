@@ -50,6 +50,7 @@ header {
   position: -webkit-sticky !important;
   position: sticky !important;
   top: 0;
+  z-index: 1;
 }
 header h1 {
   color: var(--black-1);
@@ -161,25 +162,28 @@ header h1 a:hover {
   clear: both;
 }
 .card .card-link a {
-  width: 50%;
+  width: 41%;
   display: block;
   float: left;
-  margin-top: 15px;
   text-transform: uppercase;
   font-weight: bold;
   color: var(--black-1);
   text-align: center;
   transition: 0.5s;
+  margin: 1rem 2rem 0;
+  padding: 10px 0;
+  border: 2px solid;
 }
 .card .card-link a:hover {
-  color: var(--yellow);
+  color: var(--white);
+  background-color: var(--yellow);
   text-decoration: underline;
 }
 
 /* start portfolio images */
-/* .right-side #portfolio .card-img {     ----------------------------------------------------------------------------------
-  background-image: url(../images/portfolio/portfolio.png);
-} */
+.right-side #fast-food-dzo-1 .card-img {
+  background-image: url(../images/portfolio/fast-food-dzo-1.png);
+}
 /* end portfolio images */
 
 @media all and (max-width: 831px) {
